@@ -5,9 +5,17 @@
   padding: $gutter 0;
   top: 0;
   position: relative;
+  background: $white;
+  transition: $transitionDefault;
   @supports (position: sticky) {
     position: sticky;
   }
+}
+
+.page-header--scale {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: $transitionDefault;
 }
 
 .page-header__content {
@@ -170,7 +178,7 @@
   text-decoration: none;
   &:hover {
     color: $white;
-    background-color: rgba($accent, 0.85);
+    background-color: $accentHover;
   }
 }
 
@@ -180,6 +188,7 @@
 
 #lang {
   border-radius: 100px;
+  border: 1px solid gray(300);
 }
 
 select::-ms-expand {

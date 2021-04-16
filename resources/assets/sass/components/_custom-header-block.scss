@@ -1,0 +1,57 @@
+.custom-header-block {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+
+  .custom-header-block__form {
+    width: 50%;
+    height: 90%;
+    background-color: $grey-variation;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    padding: 5%;
+
+    @media only screen and (max-width: 1100px) {
+      width: 90%;
+      left: 0;
+      right: 0;
+    }
+
+    button {
+      text-transform: uppercase;
+      margin-top: 4vh;
+    }
+  }
+
+  .custom-header-block__visual {
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+
+    @media only screen and (max-width: 1100px) {
+      width: 100%;
+      left: 0;
+      right: 0;
+    }
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .custom-header-block__sphere {
+    width: 18vw;
+    height: 18vw;
+    background: $accent;
+    border-radius: 20vw;
+    position: absolute;
+    bottom: -8%;
+    right: 3%;
+  }
+}

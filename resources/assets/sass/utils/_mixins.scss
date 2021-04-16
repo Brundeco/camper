@@ -210,3 +210,24 @@
     }
   }
 }
+
+@mixin main-button {
+  background-color: $accent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  padding: 2.5vh 0;
+  font-weight: 500;
+  &:hover {
+    cursor: pointer;
+    background-color: $accentHover;
+  }
+}
+
+@mixin main-title {
+  font-size: 3em;
+  font-weight: 900;
+  color: black;
+}

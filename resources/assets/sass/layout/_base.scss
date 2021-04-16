@@ -13,3 +13,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.main-title {
+  @include main-title;
+}
+
+.main-button {
+  @include main-button;
+}
