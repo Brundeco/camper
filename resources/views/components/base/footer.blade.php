@@ -1,7 +1,14 @@
 <footer class="page-footer">
   <div class="container">
     <div class="grid">
-      <div class="grid__item medium--one-third">
+      <div class="grid__item medium--one-sixth"></div>
+      <div class="grid__item medium--one-sixth"></div>
+      <div class="grid__item medium--one-sixth"></div>
+      <div class="grid__item medium--one-sixth"></div>
+      <div class="grid__item medium--one-sixth"></div>
+      <div class="grid__item medium--one-sixth"></div>
+
+      <div class="grid__item large--one-sixth medium--one-third">
         <ul class="social-icons">
           <li class="social-icons__item">
             <a href="#" class="social-icons__link" target="_blank" rel="noopener noreferrer">

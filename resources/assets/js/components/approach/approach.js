@@ -10,7 +10,7 @@ export default function() {
   buttons.forEach((element, index) => {
     element.addEventListener('click', () => {
       stepDescription.innerHTML = data.descriptions[index];
-      stepNumber.innerHTML = index + 1;
+      stepNumber.innerHTML = `Stap ${index + 1}`;
       stepTitle.innerHTML = data.titles[index];
       stepIcon.src = data.icons[index];
     });

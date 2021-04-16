@@ -40,6 +40,27 @@ ul.grid-uniform {
   margin-bottom: $gutter;
 }
 
+.grid__item--center {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.grid__item--a-center {
+  align-items: center;
+  display: flex;
+}
+
+.grid__item--j-center {
+  align-items: center;
+  display: flex;
+}
+
+.grid__item--column {
+  display: flex;
+  flex-direction: column;
+}
+
 // Grid reversed
 .grid--rev {
   flex-direction: row-reverse;

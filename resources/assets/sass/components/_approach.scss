@@ -1,13 +1,49 @@
 .approach {
-  height: 50vh;
-  border: 1px solid rgb(219, 219, 219);
-  width: 100%;
+  min-height: 50vh;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
+  margin: 10vh auto 0;
 
-.approach button {
-  padding: 2vh 3vw;
+  h2 {
+    margin-bottom: 8vh;
+    font-size: 2em;
+    font-weight: 900;
+  }
+
+  .approach-steps__reveal-step {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: $accent;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+  }
+
+  .approach-steps__step-subtitle {
+    text-align: center;
+  }
+
+  .approach__step-detail {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .approach__step-number {
+    margin: 2vh 0;
+  }
+
+  .approach__step-title {
+    color: $black;
+    font-weight: 700;
+  }
+
+  .approach__step-description {
+    text-align: center;
+  }
 }
