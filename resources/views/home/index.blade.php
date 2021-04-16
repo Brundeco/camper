@@ -8,15 +8,6 @@ $bodyClass = 'home';
 @endphp
 
 @section('content')
-<div class="section">
-  <div class="container">
     @include('components.header.index')
-  </div>
-</div>
-
-<div class="section">
-  <div class="container">
-    <h3>Methode</h3>
-  </div>
-</div>
+    @include('components.approach.index')
 @endsection

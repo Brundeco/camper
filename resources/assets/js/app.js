@@ -8,7 +8,8 @@ import validation from './components/forms/validation';
 import { form } from './components/forms/form';
 import CookieNotification from './components/cookies/CookieNotification';
 import ModalManager from './components/modals/ModalManager';
-import HeaderScaleAnimation from './components/header/HeaderScaleAnimation';
+import headerScaleAnimation from './components/header/headerScaleAnimation';
+import approach from './components/approach/approach';
 
 import Contact from './pages/Contact';
 import Components from './pages/Components';
@@ -30,7 +31,10 @@ objectFitImages();
 validation();
 
 // Header
-HeaderScaleAnimation();
+headerScaleAnimation();
+
+// Approach component
+approach();
 
 if (document.getElementById('form-newsletter')) {
   form('#form-newsletter');
