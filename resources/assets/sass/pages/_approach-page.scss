@@ -1,0 +1,37 @@
+.approach-page__visual {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+
+  .sphere-green-big {
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    position: absolute;
+    left: -10%;
+    bottom: -10%;
+    background: $accent;
+    z-index: -1;
+  }
+
+  .sphere-green-small {
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+    position: absolute;
+    right: -3%;
+    bottom: 15%;
+    background: $accent;
+  }
+
+  .sphere-grey-small {
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    position: absolute;
+    right: -5%;
+    bottom: 5%;
+    background: rgb(219, 219, 219);
+    z-index: -1;
+  }
+}

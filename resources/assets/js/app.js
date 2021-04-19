@@ -11,6 +11,7 @@ import ModalManager from './components/modals/ModalManager';
 import headerScaleAnimation from './components/header/headerScaleAnimation';
 import approach from './components/approach/approach';
 import slider from './components/sliders/slider';
+import accordion from './components/accordion/accordion';
 
 import Contact from './pages/Contact';
 import Components from './pages/Components';
@@ -36,6 +37,9 @@ headerScaleAnimation();
 
 // Approach component
 approach();
+
+// Accordion
+accordion();
 
 // Sliders
 slider();

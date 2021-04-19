@@ -1,0 +1,30 @@
+.accordion {
+  border-bottom: 1px solid $accent;
+  margin: 5vh 0;
+
+  .accordion__panel {
+    transition: $transitionDefault;
+    overflow: hidden;
+  }
+
+  .accordion--hide {
+    transition: $transitionDefault;
+    max-height: 0px;
+  }
+
+  .accordion--show {
+    max-height: 200px;
+    transition: $transitionDefault;
+  }
+
+  .accordion__trigger {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+    .panel-state {
+      color: $accent;
+      font-size: 2em;
+    }
+  }
+}

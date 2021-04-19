@@ -1,6 +1,21 @@
 .page-footer {
   position: relative;
-  padding: $gutter 0;
+  background-color: $accent;
+  padding: 15vh 0;
+
+  * {
+    color: $white !important;
+  }
+
+  .policy-links {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .page-footer__block-title {
+    font-size: 1em;
+  }
 }
 
 .page-footer__signature {

@@ -1,0 +1,98 @@
+.about__top-section {
+  position: relative;
+  min-height: 80vh;
+  .about-top-section__left-container {
+    width: 65%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+  }
+  .about-top-section__right-container {
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0%;
+  }
+  .about-top-section__right-container h2 {
+    position: absolute;
+    top: 20%;
+    left: -10%;
+  }
+  .about-top-section__right-container p {
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    line-height: 1.7em;
+  }
+
+  .about-top-section__right-container div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 100px;
+    position: absolute;
+    bottom: 10%;
+    left: -5%;
+  }
+}
+
+.about-middle-section__person {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  h2 {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    z-index: 1;
+    color: black;
+    font-weight: 900 !important;
+    font-size: 2em;
+  }
+
+  picture {
+    width: 70%;
+  }
+}
+.about-middle-section__person.female {
+  padding-top: 15vh;
+
+  h2 {
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    z-index: 1;
+    color: black;
+    font-weight: 900 !important;
+    font-size: 2em;
+  }
+
+  .sphere-gray-small {
+    position: absolute;
+    top: 0;
+    left: 55%;
+    width: 50px;
+    height: 50px;
+    background: #d0d0d0;
+    border-radius: 50px;
+  }
+
+  .sphere-green-big {
+    position: absolute;
+    top: -10%;
+    width: 320px;
+    height: 320px;
+    background: $accent;
+    border-radius: 320px;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.about__testimonials {
+  width: 100vw;
+  background-color: rgb(246, 246, 246);
+}

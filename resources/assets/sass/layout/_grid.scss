@@ -28,6 +28,16 @@
   margin: 0 0 -#{$gutter} -#{$gutter};
 }
 
+.grid--no-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 0 -#{$gutter} -#{$gutter};
+}
+
+.grid--full-height {
+  height: 100%;
+}
+
 ul.grid,
 ul.grid-uniform {
   list-style: none;
@@ -51,8 +61,18 @@ ul.grid-uniform {
   display: flex;
 }
 
+.grid__item--a-start {
+  align-items: flex-start;
+  display: flex;
+}
+
+.grid__item--a-end {
+  align-items: flex-end;
+  display: flex;
+}
+
 .grid__item--j-center {
-  align-items: center;
+  justify-content: center;
   display: flex;
 }
 

@@ -23,6 +23,10 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 3vh;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .approach-steps__step-subtitle {

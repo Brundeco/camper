@@ -3,12 +3,13 @@ import data from './data.json';
 
 export default function() {
   const slideContent = data;
-  console.log(slideContent.titles.length);
+  const currentPage = document.body.classList.contains('about-page');
 
   for (let i = 0; i < slideContent.titles.length; i++) {
     const parent = document.querySelector('.swiper-wrapper');
     const swiperSlider = document.createElement('div');
     swiperSlider.classList.add('swiper-slide');
+    currentPage ? swiperSlider.classList.add('swiper-slide-bg') : '';
     const slideTitle = document.createElement('h3');
     const slideImage = document.createElement('img');
     const slideText = document.createElement('p');
