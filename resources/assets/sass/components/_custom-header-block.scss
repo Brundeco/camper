@@ -25,6 +25,15 @@
       text-transform: uppercase;
       margin-top: 4vh;
     }
+
+    label {
+      color: $black;
+    }
+
+    input {
+      border: 0px solid #cbd5e0;
+      height: 45px;
+    }
   }
 
   .custom-header-block__visual {
