@@ -10,6 +10,7 @@ import CookieNotification from './components/cookies/CookieNotification';
 import ModalManager from './components/modals/ModalManager';
 import headerScaleAnimation from './components/header/headerScaleAnimation';
 import approach from './components/approach/approach';
+import slider from './components/sliders/slider';
 
 import Contact from './pages/Contact';
 import Components from './pages/Components';
@@ -35,6 +36,9 @@ headerScaleAnimation();
 
 // Approach component
 approach();
+
+// Sliders
+slider();
 
 if (document.getElementById('form-newsletter')) {
   form('#form-newsletter');

@@ -10,4 +10,5 @@ $bodyClass = 'home';
 @section('content')
     @include('components.header.index')
     @include('components.approach.index')
+    @include('components.slider.index')
 @endsection

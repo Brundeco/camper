@@ -58,6 +58,9 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Poppins:500,600&display=swap"
     rel="stylesheet">
 
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
   {{-- inline css: no flash --}}
   <style>
     .modal {
