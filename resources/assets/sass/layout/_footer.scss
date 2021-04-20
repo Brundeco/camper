@@ -2,50 +2,70 @@
   position: relative;
   background-color: $accent;
   padding: 15vh 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
   * {
     color: $white !important;
+    font-size: 0.95em !important;
+    text-decoration: none !important;
+  }
+
+  .footer-part {
+    width: 16%;
+    min-height: 5vh;
+
+    .fix {
+      flex-direction: row !important;
+      align-items: flex-end !important;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+
+      .center-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 100%;
+      }
+
+      .social-icons__link svg {
+        fill: $white;
+      }
+
+      input[type="email"] {
+        background-color: $accent !important;
+        border: 0px !important;
+        border-bottom: 1px solid $white !important;
+        height: 30px !important;
+        padding: 0 !important;
+      }
+
+      ::placeholder {
+        color: $white;
+        padding-left: 0;
+      }
+    }
   }
 
   .policy-links {
-    font-size: 0.9em;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.5);
-  }
-
-  .page-footer__block-title {
     font-size: 1em;
-  }
-}
-
-.page-footer__signature {
-  width: 80px;
-  height: 20px;
-  background: url("../images/logo-esign.svg") no-repeat top left;
-  background-size: 77px 20px;
-  backface-visibility: hidden;
-  transform: translate3d(0, 0, 0);
-  text-indent: -9999px;
-  opacity: 0.6;
-  transition-duration: 0.5s;
-  display: block;
-  outline: 0;
-  z-index: layer("footer");
-
-  &:hover,
-  &:focus {
-    opacity: 1;
-  }
-
-  @media #{$medium} {
-    width: 16px;
-    position: absolute;
-    right: 45px;
-    bottom: $gutter;
-
-    &:hover,
-    &:focus {
-      width: 80px;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6) !important;
+    display: inline-block;
+    margin: 0 3px;
+    transition: $transitionDefault;
+    &:hover {
+      color: rgba(255, 255, 255, 1) !important;
+      transition: $transitionDefault;
     }
   }
 }

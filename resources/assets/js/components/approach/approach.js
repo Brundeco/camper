@@ -9,6 +9,8 @@ export default function() {
 
   buttons.forEach((element, index) => {
     element.addEventListener('click', () => {
+      console.log(index);
+      element.classList.add('active');
       stepDescription.innerHTML = data.descriptions[index];
       stepNumber.innerHTML = `Stap ${index + 1}`;
       stepTitle.innerHTML = data.titles[index];

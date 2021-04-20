@@ -4,7 +4,7 @@
     <a href="approach.html" class="{{ $nav }}__link">Hoe werken we</a>
     </li>
     <li{!! $menuItem=='about' ? ' class=active' : '' !!}>
-      <a href="about.html" class="{{ $nav }}__link">About</a>
+      <a href="about.html" class="{{ $nav }}__link">Over ons</a>
       </li>
       <li{!! $menuItem=='contact' ? ' class=active' : '' !!}>
         <a href="contact.html" class="{{ $nav }}__link">Contact</a>

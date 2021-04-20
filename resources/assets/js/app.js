@@ -52,6 +52,7 @@ if (document.getElementById('form-newsletter')) {
 const pages = {
   Contact,
   Components,
+  // Approach,
 };
 
 const currentPage = document.documentElement.getAttribute('data-page');
