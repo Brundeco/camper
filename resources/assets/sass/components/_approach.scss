@@ -17,8 +17,9 @@
     width: 40px;
     height: 40px;
     border-radius: 40px;
-    background: $accent;
-    color: $white;
+    background: $white;
+    border: 1px solid $accent;
+    color: $accent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,6 +28,12 @@
     &:hover {
       cursor: pointer;
     }
+  }
+
+  .approach-steps__reveal-step-active {
+    background: $accent;
+    border: 1px solid $accent;
+    color: $white;
   }
 
   .approach-steps__step-subtitle {

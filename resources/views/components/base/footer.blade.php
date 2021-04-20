@@ -51,7 +51,7 @@
   </div>
   <div class="footer-part">
     <div class="footer-content">
-      <div class="center-content">
+      <div class="center-content fix">
         <p>
           <a class="page-footer__signature" href="https://www.esign.eu" target="_blank"
             title="Highly technical and tasteful websites, webshops, web applications and online marketing, tailored to your story."

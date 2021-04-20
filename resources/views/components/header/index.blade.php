@@ -2,7 +2,7 @@
     <div class="container">
         <div class="custom-header-block">
             <div class="custom-header-block__visual">
-                <img src="https://www.view.design/storage/realizations/image/18/renovatie-prachtige-herenwoning-te-brussel.jpg?t=1611407323"
+                <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2016&q=80"
                     alt="Example Image">
             </div>
             <div class="custom-header-block__form">
